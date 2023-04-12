@@ -28,6 +28,8 @@ public class SpecialButton : MonoBehaviour
         else
         {
             BackgroundApp.sprite = RickAstley;
+            SoundObject.Instance.BGM.clip = SoundObject.Instance.RickAstley;
+            SoundObject.Instance.BGM.Play();
         }
     }
     public void PopupBackgroundClick()

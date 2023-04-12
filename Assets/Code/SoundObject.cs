@@ -15,6 +15,7 @@ public class SoundObject : MonoBehaviour
     public AudioClip DeleteButton;
     public AudioClip ACButton;
     public AudioClip EqualButton;
+    public AudioClip RickAstley;
     void Start()
     {
         if (Instance != null && Instance != this)

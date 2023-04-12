@@ -92,6 +92,7 @@ public class ButtonPanel : MonoBehaviour
         DisplayCurrentCalculation(CurrentCalculationText);
 
     }
+
     public void MathematicButton(string m)
     {
         //case (+,-,x,/) so cant use (x,/) and block case CurrentCalculationText = ""
